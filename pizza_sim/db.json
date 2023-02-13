@@ -1,0 +1,120 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "name": "IVE - AFTER LIKE (JEWEL VER)",
+      "description": "Includes: CD + 16p Photobook + Photocard + Mini Folded Poster. Release: 23 Aug 22",
+      "price": 14,
+      "image": "/assets/pics/ALjewel.jpg"
+    },
+    {
+      "id": 2,
+      "name": "IVE - AFTER LIKE (PHOTOBOOK VER)",
+      "description": "Includes: CD + 96p Photobook + Photocard + Post Card + Mini Folded Poster. Release: 22 Aug 22",
+      "price": 19.5,
+      "image": "/assets/pics/ALphotobook.jpg"
+    },
+    {
+      "id": 3,
+      "name": "IVE - LOVE DIVE",
+      "description": "Includes: CD + 98p Photobook + Photocard + Heart Hologram Card. First Press Benefit: Sticker + Poster. Release: 05 Apr 22",
+      "price": 20,
+      "image": "/assets/pics/LD_01.jpg"
+    },
+    {
+      "id": 4,
+      "name": "IVE - LOVE DIVE (JEWEL CASE VER)",
+      "description": "Includes: CD + Photobook + Photocard + 2-cut Photo + Mini Folded Poster. Release: 07 Apr 22",
+      "price": 14.5,
+      "image": "/assets/pics/LD_02.jpg"
+    },
+    {
+      "id": 5,
+      "name": "LE SSERAFIM - ANTIFRAGILE (WEVERSE ALBUMS VER)",
+      "description": "Includes: Card Holder + 2 Photocard + QR Card + Guide. Release: 17 Oct 22",
+      "price": 12.5,
+      "image": "/assets/pics/NTF_01.jpg"
+    },
+    {
+      "id": 6,
+      "name": "LE SSERAFIM - ANTIFRAGILE OFFICIAL MD",
+      "description": "Includes: INSTANT PHOTOCARD, PHOTOCARD BINDER. Release: 20 Dec 22",
+      "price": 35,
+      "image": "/assets/pics/NTF_02.jpg"
+    },
+    {
+      "id": 7,
+      "name": "LE SSERAFIM - ANTIFRAGILE",
+      "description": "Includes: CD + 112p Photobook + Photocard + Postcard + Sticker + Antifragile Sticker + Folding Poster. Release: 17 Oct 22",
+      "price": 22.5,
+      "image": "/assets/pics/NTF_03.jpg"
+    },
+    {
+      "id": 8,
+      "name": "LE SSERAFIM - ANTIFRAGILE (COMPACT VER.)",
+      "description": "Includes: CD + 16p Booklet + 1 Individual Photocard + 1 Unit Photocard + Postcard. Release: 17 Oct 22",
+      "price": 14,
+      "image": "/assets/pics/NTF_compact.jpg"
+    },
+    {
+      "id": 9,
+      "name": "NEWJEANS - OMG (WEVERSE ALBUMS VER)",
+      "description": "Includes: OutBox (1 Type) + Lyrics Paper + Photocard Set + QR Card. Release: 02 Jan 23",
+      "price": 13.5,
+      "image": "/assets/pics/NJ_01.jpg"
+    },
+    {
+      "id": 10,
+      "name": "NEWJEANS OMG (MESSAGE CARD VER)",
+      "description": "Includes:Cover (6 Types) + CD + Message Card + 52p Photobook + Lyrics Paper + Photocard Set + Sticker. Release: 02 Jan 23",
+      "price": 18.5,
+      "image": "/assets/pics/nj.webp"
+    },
+    {
+      "id": 11,
+      "name": "NEWJEANS 2023 SEASON'S GREETINGS",
+      "description": "Includes: 26p Desk Calendar + 160p Hard Cover Diary + 76p Photobook + Sticker Pack + Mini Posters + Year Poster + Playing Cards (Photocards) + Digital Code Card + Door Hanger + Keyring + Memo Pad. Release: 07 Dec 22",
+      "price": 65,
+      "image": "/assets/pics/NJ_03.jpg"
+    },
+    {
+      "id": 12,
+      "name": "NEWJEANS BLUEBOOK VER",
+      "description": "Includes: CD + 68p Photobook + 76p Pin-Up Book + 7 Phoning Manual Book +  ID Card (1 Type) +  Sticker Pack (1 Type) + 6 Photocards (1 Type) + 1 Mini Poster. Release: 08 Aug 22",
+      "price": 40,
+      "image": "/assets/pics/NJ_04.jpg"
+    },
+    {
+      "id": 13,
+      "name": "AESPA - GIRLS (2ND MINI ALBUM) - REAL WORLD VERSION",
+      "description": "Includes: CD + 1 Photobook (72p) + Cover + 1 Photocard (1 out of 4, random) + 1 Polaroid Card (1 out of 4, random) + 1 Folded Poster (1 out of 4, random) + 1 Sticker Page. Release: 08 July 22",
+      "price": 25,
+      "image": "/assets/pics/aespa_01_RW.webp"
+    },
+    {
+      "id": 14,
+      "name": "AESPA - GIRLS (2ND MINI ALBUM) - KWANGYA VERSION",
+      "description": "Includes: CD + 1 Photobook (72p) + Cover + 1 Photocard (1 out of 4, random) + 1 Polaroid Card (1 out of 4, random) + 1 Folded Poster (1 out of 4, random) + 1 Sticker Page. Release: 08 July 22",
+      "price": 25,
+      "image": "/assets/pics/aespa_01_KY.webp"
+    },
+    {
+      "id": 15,
+      "name": "AESPA - GIRLS (DIGIPACK)",
+      "description": "Includes: CD (5 Versions) + 1 Photobook (24p) + Cover (5 Versions) + 1 Photocard (1 out of 4, random) + 1 Folded Poster (1 out of 4, random) + 1 Poster (2 Versions) (rolled). Release: 08 July 22",
+      "price": 15,
+      "image": "/assets/pics/aespa_02.webp"
+    },
+    {
+      "id": 16,
+      "name": "AESPA - 2023 SEASON'S GREETINGS",
+      "description": "Includes: 1 Out Box + 1 Desk Calendar (14p) + 1 Hard Cover Diary (120p) + 1 Postcard Set (12 pcs) + Envelope + 2 A3 Folded Poster Sets + 2 Sticker Sets + 1 A4 Poster Set (10pcs) + 1 Mini Brochure (16pcs) + 1 Photocard Pack (4 Clear Photocards & 4 Photocards) + 2 4Cut Photo Sticker + 1 Holiday Set (2 DIY Ornaments, 1 Holiday Sticker, 4 Photocards). Release: 08 July 22",
+      "price": 70,
+      "image": "/assets/pics/aespa_04.jpg"
+    }
+  ],
+  "Carts": [
+    {
+    }
+  ]
+}

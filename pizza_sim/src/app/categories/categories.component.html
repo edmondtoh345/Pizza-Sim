@@ -1,0 +1,47 @@
+<!-- Homepage -->
+<div class="container">
+    <div class="row mt-4">
+        <div class="container"><a routerLink="/home"><img src="/assets/pics/bs.gif" alt="" style="width:7cm"></a><a routerLink="/"><img src="/assets/pics/Untitled design.gif" alt="" style="width:25cm; margin-left: 2cm;"></a></div>
+        <div class="col-md-3 mt-4" *ngFor="let p of productArray">
+            <div class="container">
+            </div>
+            <div class="card h-100">
+                <img src="{{p.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{p.name}}</h5>
+                    <p class="card-text">{{p.description}}</p>
+                    <h2 class="card-price">{{p.price | currency}}</h2>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        (click)="PutProductintoCart(p)">
+                        Add To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal For Adding to Cart -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">{{addedItem.name}}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="{{addedItem.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mt-3">{{addedItem.name}}</h5>
+                    <p class="card-text">{{addedItem.description}}</p>
+                    <h2 class="card-price">{{addedItem.price | currency}}</h2>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" (click)="AddItemstoCart(addedItem)">Add To Cart</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+

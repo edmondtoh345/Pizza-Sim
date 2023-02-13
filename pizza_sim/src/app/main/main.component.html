@@ -1,0 +1,50 @@
+<!-- Homepage -->
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/pics/nj.webp" class="d-block w-90" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/pics/NTF_02.jpg" class="d-block w-90" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/pics/NJ_01.jpg" class="d-block w-90" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Modal For Total Items and Payments in Cart -->
+<div class="modal" id="CartModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="container"><img src="/assets/pics/removedbg.png" style="width: 3cm; margin-left: 4cm;"alt=""><h5 class="modal-title" style="text-align: center;">You've got these items in your cart!</h5></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="{{addedItem.image}}" class="card-img-top" alt="..." style="width: 4cm; float: left;"/>
+            <div class="card-body">
+                <h5 class="card-title mt-3">{{addedItem.name}}</h5>
+                <h2 class="card-price">{{addedItem.price | currency}}</h2>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
+                    <button type="button" class="btn"> {{addedItem.qty}} </button>
+                    <button type="button" class="btn"><i class="fa-solid fa-minus"></i></button>
+                  </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Proceed to Payment</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

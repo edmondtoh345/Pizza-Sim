@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="#"><img src="/assets/pics/removedbg.png" alt="" style="height:5cm;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="#">Pre-Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="#">New Arrivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/categories">Categories</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" routerLink="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Members Only
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" routerLink="/register">Register an Account</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" routerLink="/login">Log In</a></li>
+                    </ul>
+            </ul>
+            <form class="d-flex" role="search" style="width:5.5cm">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" style="background-color:rgb(91, 0, 196);" type="submit"><i
+                        class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <form class="d-flex">
+                <button class="btn btn-light"
+                    style="background-color:rgb(160, 99, 230); color: rgb(255, 255, 255); margin-left: 10px;" type=""><i
+                        class="fa-solid fa-cart-shopping" data-bs-toggle="modal"
+                        data-bs-target="#CartModal" (click)="getItemsfromCarts()"></i></button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Modal For Total Items and Payments in Cart -->
+<div class="modal" id="CartModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="container"><img src="/assets/pics/removedbg.png" style="width: 3cm; margin-left: 4cm;"alt=""><h5 class="modal-title" style="text-align: center;">You've got these items in your cart!</h5></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="{{addedItem.image}}" class="card-img-top" alt="..." style="width: 4cm; float: left;"/>
+            <div class="card-body">
+                <h5 class="card-title mt-4">{{addedItem.name}}</h5>
+                <h2 class="card-price">{{addedItem.price | currency}}</h2>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
+                    <button type="button" class="btn"> {{addedItem.qty}} </button>
+                    <button type="button" class="btn"><i class="fa-solid fa-minus"></i></button>
+                  </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Proceed to Payment</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
